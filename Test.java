@@ -12,7 +12,12 @@ public class Test {
 			stack.push(input.next());
 		}
 		
-	
+		System.out.println();	
+		System.out.println(stack.getSize() + " strings are: ");
+		//Display five strings in reverse order
+		while(!stack.isEmpty()){
+			System.out.println(stack.pop());
+		}
 
 	}
 }
